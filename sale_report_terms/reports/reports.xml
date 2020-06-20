@@ -1,0 +1,10 @@
+<odoo>
+    <template id="sale_report_terminos" inherit_id="sale.report_saleorder_document">
+       <xpath expr="//div[@class='page']" position="inside">
+
+          <div style="page-break-after: always;"/>
+           <p t-field="res_company.sale_report_terms"/>
+
+        </xpath>
+    </template>
+</odoo>
