@@ -1,6 +1,6 @@
 {
     'name': 'Informe sales terminos',
-    'version': '13.0.0',
+    'version': '13.0.1',
     'summary': 'Agrega un apartado en compania para definir terminos del sales order',
     'description': 'Agrega un apartado en compania para definir terminos del sales order',
     'author': 'Xmarts',
