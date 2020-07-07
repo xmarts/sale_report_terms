@@ -5,10 +5,11 @@
     'description': 'Agrega un apartado en compania para definir terminos del sales order',
     'author': 'Xmarts',
     'website': 'www.xmarts.com',
-    'depends': ['base','sale'],
+    'depends': ['base','sale','product'],
     'data': [
-        'views/xmarts_config.xml',
-        'reports/reports.xml',
+        'views/res_company.xml',
+        'views/product_template.xml',
+        'reports/sale_report.xml',
     ],
     'installable': True,
 }
